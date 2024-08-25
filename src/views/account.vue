@@ -59,7 +59,7 @@
           round
           width="100px"
           height="100px"
-          src="https://img.ichuguang.com/imgs/2022/06/63e13682c4d10b45.jpg"
+          src="../../public/static/image/login.png"
         />
         <van-form @submit="onSubmit">
           <van-cell-group inset>
@@ -101,7 +101,7 @@
           round
           width="100px"
           height="100px"
-          src="https://img.ichuguang.com/imgs/2022/06/63e13682c4d10b45.jpg"
+          src="../../public/static/image/login.png"
         />
         <van-form @submit="onEditSubmit">
           <van-cell-group inset>

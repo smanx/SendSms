@@ -3,12 +3,12 @@
     <van-nav-bar title="设置" />
     <Cell></Cell>
     <van-cell-group inset>
-      <van-cell icon="https://img.ichuguang.com/imgs/2022/07/71c1a8c32da1772e.png" title="切换配置" is-link
+      <van-cell icon="../../public/static/image/setting1.png" title="切换配置" is-link
         @click="switchAccount" />
-      <van-cell icon="https://img.ichuguang.com/imgs/2022/07/173ff349af76e415.png" title="切换主题" is-link
+      <van-cell icon="../../public/static/image/setting2.png" title="切换主题" is-link
         @click="switchoverTheme" />
-      <van-cell icon="https://img.ichuguang.com/imgs/2022/07/21a8fbfb9459ddc6.png" title="留言反馈" is-link @click="msg" />
-      <van-cell icon="https://img.ichuguang.com/imgs/2022/07/f1e062a931e18557.png" title="退出登录" is-link
+      <van-cell icon="../../public/static/image/setting3.png" title="留言反馈" is-link @click="msg" />
+      <van-cell icon="../../public/static/image/setting4.png" title="退出登录" is-link
         @click="logOut" />
     </van-cell-group>
   </div>

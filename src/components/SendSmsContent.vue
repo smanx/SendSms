@@ -73,8 +73,8 @@ export default defineComponent({
     const showPopover = ref(false);
     const sendList = ref([])
     const actions = [
-      { text: 'SIM1', icon: 'https://img.ichuguang.com/imgs/2022/06/0c98dc6c6b4e370d.png' },
-      { text: 'SIM2', icon: 'https://img.ichuguang.com/imgs/2022/06/e63c357e3a7ae6b0.png' },
+      { text: 'SIM1', icon: '../../public/static/image/sim1.png' },
+      { text: 'SIM2', icon: '../../public/static/image/sim2.png' },
     ];
     if (props.number) {
       phone_numbers.value = props.number
@@ -110,7 +110,7 @@ export default defineComponent({
         if (response.data.code === 200) {
           Toast({
             message: '短信发送成功',
-            icon: 'https://img.ichuguang.com/imgs/2022/06/7c682f7e147a30ce.png',
+            icon: '../../public/static/image/send-sms-success.png',
           })
         const data=   {
             content:msg_content.value,
@@ -123,7 +123,7 @@ export default defineComponent({
         } else {
           Toast({
             message: '短信发送失败',
-            icon: 'https://img.ichuguang.com/imgs/2022/06/5d2451c1941ae791.png',
+            icon: '../../public/static/image/send-sms-fail.png',
           })
         }
       })
