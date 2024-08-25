@@ -2,7 +2,7 @@
   <div id="login">
     <van-popup :transition-appear="true" v-model:show="show" :round="true" closeable
       :style="{ height: '350px', width: '95%' ,display: `flex`,flexDirection: `column`,justifyContent:`center`,alignItems: `center`}">
-      <van-image round width="100px" height="100px" src="../../public/static/image/login.png" />
+      <van-image round width="100px" height="100px" src="/static/image/login.png" />
       <van-form @submit="onSubmit">
         <van-cell-group inset>
           <van-field v-model="username" name="serverUrl" label="服务器" placeholder="服务器"

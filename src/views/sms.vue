@@ -39,7 +39,7 @@ export default {
     if (!window.localStorage.getItem('Toast')) {
       Toast({
         message: '点击上方按钮可切换信箱哦',
-        icon: '../../public/static/image/smsm.png',
+        icon: '/static/image/smsm.png',
       });;
       window.localStorage.setItem('Toast', 'true')
     }

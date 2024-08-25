@@ -3,12 +3,12 @@
     <van-nav-bar title="设置" />
     <Cell></Cell>
     <van-cell-group inset>
-      <van-cell icon="../../public/static/image/setting1.png" title="切换配置" is-link
+      <van-cell icon="/static/image/setting1.png" title="切换配置" is-link
         @click="switchAccount" />
-      <van-cell icon="../../public/static/image/setting2.png" title="切换主题" is-link
+      <van-cell icon="/static/image/setting2.png" title="切换主题" is-link
         @click="switchoverTheme" />
-      <van-cell icon="../../public/static/image/setting3.png" title="留言反馈" is-link @click="msg" />
-      <van-cell icon="../../public/static/image/setting4.png" title="退出登录" is-link
+      <van-cell icon="/static/image/setting3.png" title="留言反馈" is-link @click="msg" />
+      <van-cell icon="/static/image/setting4.png" title="退出登录" is-link
         @click="logOut" />
     </van-cell-group>
   </div>
