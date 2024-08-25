@@ -73,8 +73,8 @@ export default defineComponent({
     const showPopover = ref(false);
     const sendList = ref([])
     const actions = [
-      { text: 'SIM1', icon: '/static/image/sim1.png' },
-      { text: 'SIM2', icon: '/static/image/sim2.png' },
+      { text: 'SIM1', icon: './static/image/sim1.png' },
+      { text: 'SIM2', icon: './static/image/sim2.png' },
     ];
     if (props.number) {
       phone_numbers.value = props.number
@@ -110,7 +110,7 @@ export default defineComponent({
         if (response.data.code === 200) {
           Toast({
             message: '短信发送成功',
-            icon: '/static/image/send-sms-success.png',
+            icon: './static/image/send-sms-success.png',
           })
         const data=   {
             content:msg_content.value,
@@ -123,7 +123,7 @@ export default defineComponent({
         } else {
           Toast({
             message: '短信发送失败',
-            icon: '/static/image/send-sms-fail.png',
+            icon: './static/image/send-sms-fail.png',
           })
         }
       })

@@ -14,7 +14,7 @@
             <i class="loading-rotate-animate-1"></i>
             <i class="loading-rotate-animate-2"></i>
             <i class="loading-rotate-animate-3"></i>
-            <img src="../static/image/smsmsg.png" alt="" />
+            <img src="./../static/image/smsmsg.png" alt="" />
           </div>
         </div>
       </div>

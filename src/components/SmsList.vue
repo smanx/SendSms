@@ -11,7 +11,7 @@
               <!-- 进行短信图像生成,如果有姓名,则生成姓名图像,否则生成默认图像 -->
               <van-image round none width="2.5rem" height="2.5rem" :src="
                 item.name === `未知号码`
-                  ? '../static/image/sms1.png'
+                  ? './../static/image/sms1.png'
                   : `https://ui-avatars.com/api/?name=${item.name}&length=1&background=random&size=58&bold=true&color=ff0000`
               " />
               <div class="smsContentInfo">

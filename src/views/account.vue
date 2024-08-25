@@ -59,7 +59,7 @@
           round
           width="100px"
           height="100px"
-          src="/static/image/login.png"
+          src="./static/image/login.png"
         />
         <van-form @submit="onSubmit">
           <van-cell-group inset>
@@ -101,7 +101,7 @@
           round
           width="100px"
           height="100px"
-          src="/static/image/login.png"
+          src="./static/image/login.png"
         />
         <van-form @submit="onEditSubmit">
           <van-cell-group inset>
