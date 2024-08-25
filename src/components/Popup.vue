@@ -2,14 +2,14 @@
   <div id="login">
     <van-popup :transition-appear="true" v-model:show="show" :round="true" closeable
       :style="{ height: '350px', width: '95%' ,display: `flex`,flexDirection: `column`,justifyContent:`center`,alignItems: `center`}">
-      <van-image round width="100px" height="100px" src="/static/image/login.png" />
+      <van-image round width="100px" height="100px" src="./static/image/login.png" />
       <van-form @submit="onSubmit">
         <van-cell-group inset>
           <van-field v-model="username" name="serverUrl" label="服务器" placeholder="服务器"
             :rules="[{ required: true, message: '请填服务器地址' }]" />
           <van-field v-model="password" :type="!passwordStatus ? 'password' : 'text'"
             :right-icon="passwordStatus ? 'eye' : 'closed-eye'" @click-right-icon="passwordStatus = !passwordStatus"
-            name="sign" label="秘钥" placeholder="秘钥" :rules="[{ required: true, message: '请填写秘钥' }]">
+            name="sign" label="秘钥" placeholder="秘钥" :rules="[{ required: false, message: '请填写秘钥' }]">
           </van-field>
         </van-cell-group>
         <div style="margin: 16px">
